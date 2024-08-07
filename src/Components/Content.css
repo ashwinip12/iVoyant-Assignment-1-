@@ -1,0 +1,138 @@
+
+.content {
+  display: flex;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.category-list {
+  list-style-type: none;
+  padding: 0;
+  width: 250px; 
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+  margin-top: 0px;
+ 
+}
+
+.category-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  height: 11px;
+  margin-left: 40px;
+  margin-bottom: 17px;
+}
+
+.main-content {
+  flex: 3;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.main-banner {
+  background-color: #69c6d2;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 300px; 
+}
+
+.main-banner h2, .main-banner p {
+  margin: 0;
+}
+
+.main-banner img {
+  max-width: 40%;
+  height: auto;
+}
+
+.offers {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  height: 11px;
+}
+
+.offer-item {
+  background-color: #fff;
+
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 30%;
+}
+
+.offer-item img {
+  width: 100%;
+  height: 200px; 
+  object-fit: fill; 
+}
+
+
+.sidebar-content {
+  width: 250px; 
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+}
+
+.recently-viewed, .suggestions {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.recently-viewed h3, .suggestions h3 {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+.recently-viewed img, .suggestions img {
+  width: 100%;
+  height: 200px; 
+  object-fit: cover; 
+}
+
+h3.recent {
+  margin-left: -97px;
+  margin-bottom: 0px;
+  margin-top: -7px;
+}
+h3.suggestion{
+  margin-left: -74px;
+  margin-bottom: 0px;
+}
+h2.biggest {
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: 16px;
+  margin-bottom: 9px;
+}
+.break-text::after {
+  content: "\A up to 50% off";
+  white-space: pre;
+}
+
+  p.deals {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 22px;
+}
+button {
+  margin-top: 51px;
+  padding: 5px;
+  background-color: burlywood;
+}

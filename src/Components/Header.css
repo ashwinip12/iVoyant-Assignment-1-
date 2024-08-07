@@ -1,0 +1,73 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    margin-left: 81px;
+  }
+  
+  .header .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header .logo img {
+    height: 30px;
+    margin-right: 10px;
+    margin-left:60px;
+  }
+  
+  .header .logo span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-left: 2px;
+  }
+  
+  .header .search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .header .search-bar input {
+    width: 70%;
+    padding: 10px 40px 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    align-items: center;
+  }
+  
+  .header .search-bar input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .header .search-bar .search-icon {
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+    color: #777;
+  }
+  
+  .header .user-menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header .user-menu img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .search-bar input[type="text"] {
+    flex: 1; /* Allows the input to take available space */
+    margin-right: 10px; /* Optional: Add some space between input and icon */
+  }
+  
+ 
